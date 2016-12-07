@@ -2,48 +2,12 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
 		<title></title>
-		<style type="text/css">
-			div{
-				width: 200px;
-				height: 200px;
-				background: #909;
-				margin-top: 20px;
-				color: #fff;
-				
-			}
-			#div2{
-				position: absolute;
-				left: 0px;top: 900px;
-			}
-		</style>
-		<script type="text/javascript">
-			window.onload=function(){
-				var oDiv1=document.getElementById("div1");
-				var oDiv2=document.getElementById("div2");
-				var oDiv3=document.getElementById("div3");
-				oDiv1.addEventListener("touchstart",function(){
-					console.log("触发的touchstart事件");
-				})
-				oDiv2.addEventListener("touchmove",function(e){
-				console.log("横坐标："+e.targetTouches[0].clientX+"纵坐标："+e.targetTouches[0].clientY);
-				})
-				oDiv3.addEventListener("touchend",function(){
-					
-				})
-			}
-		</script>
+		
+		
 	</head>
 	<body>
-		<div id="div1">
-			touchstart
-		</div>
-		<div id="div2">
-			touchmove
-		</div>
-		<div id="div3">
-			touchend
-		</div>
+		hello world!
 	</body>
 </html>
